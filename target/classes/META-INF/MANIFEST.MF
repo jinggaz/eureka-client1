@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: eureka-client1
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Soyeong
+Implementation-Vendor-Id: com.dong.eureka.client1
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/eureka-clien
+ t1/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

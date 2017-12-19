@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: eureka-client1
+  cloud:
+    config:
+      enabled: true
+      uri: http://10.140.112.174:8888    
+
+server:
+  port: 8081
+
+#eureka:              This configuration is moved to Central Config
+#  instance:
+#    prefer-ip-address: true
+#  client:
+#    service-url:
+#      defaultZone: http://10.140.112.174:8761/eureka
