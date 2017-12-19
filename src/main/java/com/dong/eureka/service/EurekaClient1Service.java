@@ -14,6 +14,7 @@ public class EurekaClient1Service {
 	
 	public String toRead1()	{
 		String bookName = null;
+		//call microservice using application name not actual URL
 		String url = "http://eureka-client2/recommended/";
 		EurekaClient1HystrixCommand ec1HystrixCommand = new EurekaClient1HystrixCommand("T2st1", url, restTemplate);
 		
@@ -24,6 +25,8 @@ public class EurekaClient1Service {
 	
 	public String toRead2()	{
 		String bookName = null;
+		//call microservice using application name not actual URL
+		//this hystrix confituraion fallback is false
 		String url = "http://eureka-client2/recommended2/";
 		EurekaClient1HystrixCommand ec1HystrixCommand = new EurekaClient1HystrixCommand("Test2", url, restTemplate);
 		try	{
