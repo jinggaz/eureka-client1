@@ -16,7 +16,7 @@ public class EurekaClient1Service {
 		String bookName = null;
 		//call microservice using application name not actual URL
 		String url = "http://eureka-client2/recommended/";
-		EurekaClient1HystrixCommand ec1HystrixCommand = new EurekaClient1HystrixCommand("T2st1", url, restTemplate);
+		EurekaClient1HystrixCommand ec1HystrixCommand = new EurekaClient1HystrixCommand("Test1", url, restTemplate);
 		
 		bookName = ec1HystrixCommand.execute();
 		

@@ -4,7 +4,7 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://10.140.112.174:8888    
+      uri: http://localhost:8888    
 
 server:
   port: 8081
